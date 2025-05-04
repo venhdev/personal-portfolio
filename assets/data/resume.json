@@ -1,0 +1,110 @@
+{
+  "en": {
+    "education": [
+      {
+        "school": "University school of the arts",
+        "period": "2007 — 2008",
+        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      {
+        "school": "New york academy of art",
+        "period": "2006 — 2007",
+        "description": "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
+      },
+      {
+        "school": "High school of art and design",
+        "period": "2002 — 2004",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+      }
+    ],
+    "experience": [
+      {
+        "position": "Creative director",
+        "period": "2015 — Present",
+        "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+      },
+      {
+        "position": "Art director",
+        "period": "2013 — 2015",
+        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      {
+        "position": "Web designer",
+        "period": "2010 — 2013",
+        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web design",
+        "percentage": 80
+      },
+      {
+        "name": "Graphic design",
+        "percentage": 70
+      },
+      {
+        "name": "Branding",
+        "percentage": 90
+      },
+      {
+        "name": "WordPress",
+        "percentage": 50
+      }
+    ]
+  },
+  "vi": {
+    "education": [
+      {
+        "school": "Trường Đại học Nghệ thuật",
+        "period": "2007 — 2008",
+        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      {
+        "school": "Học viện Nghệ thuật New York",
+        "period": "2006 — 2007",
+        "description": "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
+      },
+      {
+        "school": "Trường Trung học Nghệ thuật và Thiết kế",
+        "period": "2002 — 2004",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+      }
+    ],
+    "experience": [
+      {
+        "position": "Giám đốc Sáng tạo",
+        "period": "2015 — Hiện tại",
+        "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+      },
+      {
+        "position": "Giám đốc Nghệ thuật",
+        "period": "2013 — 2015",
+        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      },
+      {
+        "position": "Nhà thiết kế Web",
+        "period": "2010 — 2013",
+        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Thiết kế Web",
+        "percentage": 80
+      },
+      {
+        "name": "Thiết kế Đồ họa",
+        "percentage": 70
+      },
+      {
+        "name": "Xây dựng Thương hiệu",
+        "percentage": 90
+      },
+      {
+        "name": "WordPress",
+        "percentage": 50
+      }
+    ]
+  }
+}

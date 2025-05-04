@@ -1,0 +1,92 @@
+{
+  "en": {
+    "navbar": {
+      "about": "About",
+      "resume": "Resume",
+      "portfolio": "Portfolio",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "sidebar": {
+      "title": "Web developer",
+      "showContacts": "Show Contacts",
+      "email": "Email",
+      "phone": "Phone",
+      "birthday": "Birthday",
+      "location": "Location"
+    },
+    "about": {
+      "title": "About me",
+      "service": "What i'm doing",
+      "testimonials": "Testimonials",
+      "clients": "Clients"
+    },
+    "resume": {
+      "title": "Resume",
+      "education": "Education",
+      "experience": "Experience",
+      "skills": "My skills"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "all": "All",
+      "webDesign": "Web design",
+      "applications": "Applications",
+      "webDevelopment": "Web development"
+    },
+    "contact": {
+      "title": "Contact",
+      "form": {
+        "fullName": "Full name",
+        "email": "Email address",
+        "message": "Your Message",
+        "submit": "Send Message"
+      }
+    }
+  },
+  "vi": {
+    "navbar": {
+      "about": "Giới thiệu",
+      "resume": "Sơ yếu lý lịch",
+      "portfolio": "Dự án",
+      "blog": "Blog",
+      "contact": "Liên hệ"
+    },
+    "sidebar": {
+      "title": "Lập trình viên web",
+      "showContacts": "Hiển thị liên hệ",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "birthday": "Ngày sinh",
+      "location": "Địa chỉ"
+    },
+    "about": {
+      "title": "Giới thiệu",
+      "service": "Dịch vụ của tôi",
+      "testimonials": "Đánh giá",
+      "clients": "Khách hàng"
+    },
+    "resume": {
+      "title": "Sơ yếu lý lịch",
+      "education": "Học vấn",
+      "experience": "Kinh nghiệm",
+      "skills": "Kỹ năng"
+    },
+    "portfolio": {
+      "title": "Dự án",
+      "all": "Tất cả",
+      "webDesign": "Thiết kế web",
+      "applications": "Ứng dụng",
+      "webDevelopment": "Phát triển web"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "form": {
+        "fullName": "Họ và tên",
+        "email": "Địa chỉ email",
+        "message": "Tin nhắn",
+        "submit": "Gửi tin nhắn"
+      }
+    }
+  }
+}

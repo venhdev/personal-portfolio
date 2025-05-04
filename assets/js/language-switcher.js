@@ -7,7 +7,7 @@ let languageData = {};
 // Load language data from JSON file
 async function loadLanguageData() {
   try {
-    const response = await fetch('./assets/js/languages.json');
+    const response = await fetch('./assets/data/languages.json');
     languageData = await response.json();
     applyLanguage(currentLanguage);
   } catch (error) {
@@ -22,7 +22,7 @@ function applyLanguage(lang) {
   const data = languageData[lang];
   
   // Store current active page before updating navbar
-  const currentActivePage = document.querySelector('.article.active');
+  const currentActivePage = document.querySelector('article.active');
   const currentPageId = currentActivePage ? currentActivePage.getAttribute('data-page') : 'about';
   
   // Update navbar items and maintain active state
@@ -31,8 +31,6 @@ function applyLanguage(lang) {
     if (index < navKeys.length) {
       const pageId = navKeys[index];
       link.textContent = data.navbar[pageId];
-      link.setAttribute('data-nav-link', '');
-      link.setAttribute('data-page', pageId);
       
       // Remove old event listeners
       const newLink = link.cloneNode(true);
@@ -80,8 +78,9 @@ function applyLanguage(lang) {
       page.classList.add('active');
       page.style.display = 'block';
       // Find and activate corresponding nav link
-      document.querySelectorAll('.navbar-link').forEach(link => {
-        if (link.getAttribute('data-page') === pageId) {
+      document.querySelectorAll('.navbar-link').forEach((link, index) => {
+        const navKeys = Object.keys(data.navbar);
+        if (index < navKeys.length && navKeys[index] === pageId) {
           link.classList.add('active');
         }
       });
